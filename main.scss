@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    background-image: url(./assets/pexels-francesco-ungaro-2325446.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0,0.6);
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+}
+.title{
+    font-family: 'poppins',sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #fff;
+}
+.col{
+    display: flex;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.col .col-base{
+    width: 250px;
+    text-align: center;
+    margin: auto;
+}
+input{
+    display: block;
+    height: 50px;
+    width: 60%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    box-shadow: 0px 0px 3px 0.2px #999;
+}
+label{
+    font-family: 'poppins',sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
